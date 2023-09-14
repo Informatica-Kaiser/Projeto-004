@@ -47,7 +47,7 @@ body {
     display: none;
     background-color: rgb(15, 14, 14);
     width: 100%;
-    margin: 1em;
+    margin-bottom: 2em;
     padding: 1em;
 }
 
@@ -120,4 +120,51 @@ body {
     border-radius: 10px;
     background-color: red;
     color: white;
+}
+
+/* FOOTER  */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    color: darkgray;
+    padding: 1em;
+    font-size: .9em;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.instagram {
+    
+    padding: .5em;
+    border: 2px solid red;
+    border-radius: 8px;
+    margin: .2em;
+}
+
+.instagram a {
+    color: white;
+    font-size: 2em;
+}
+
+.whats {
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: .5em;
+    margin: .2em;
+}
+
+.whats a {
+    color: white;
+    font-size: 2em;
 }
