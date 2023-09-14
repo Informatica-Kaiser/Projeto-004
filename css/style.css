@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+/* HEADER */
+
+.topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(169, 169, 169, 0.134);
+}
+
+.topo a {
+    transition: .3s;
+}
+
+.logo {
+    padding: .5em;
+}
+
+.menubar {
+    padding: 1em;
+}
+
+.menubar i {
+    font-size: 2em;
+    color: white;
+}
+
+.menu {
+    background-color: rgb(15, 14, 14);
+    width: 100%;
+    margin: 1em;
+    padding: 1em;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    padding: .5em;
+}
+
+.menu ul li a {
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: darkgray;
+}
+
+.btn-contato {
+    background-color: red;
+    padding: .5em 1.5em;
+    border-radius: 30px;
+}
+
+.btn-contato a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+/* CORPO */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner h3  {
+    color: white;
+    margin-bottom: 1em;
+    font-size: 1.3em;
+    padding: 1em;
+}
+
+.img-banner  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100vw;
+    height: 300px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/img-banner.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+.img-banner h3 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: red;
+}
+
