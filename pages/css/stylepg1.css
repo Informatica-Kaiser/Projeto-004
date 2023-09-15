@@ -105,7 +105,7 @@ header {
     color: red;
     font-weight: 800;
     background-color:black;
-    border: 1px solid darkgray;
+    box-shadow: 0px 0px 5px white;
 }
 
 #blackimg {
@@ -160,7 +160,7 @@ header {
     color: red;
     font-weight: 800;
     background-color:black;
-    border: 1px solid darkgray;
+    box-shadow: 0px 0px 5px white;
 }
 
 #darklabimg {
@@ -216,7 +216,7 @@ header {
     color: red;
     font-weight: 800;
     background-color:black;
-    border: 1px solid darkgray;
+    box-shadow: 0px 0px 5px white;
 }
 
 .demaisprodut {
