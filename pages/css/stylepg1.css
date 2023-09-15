@@ -26,7 +26,7 @@ header {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 2em;
+    padding-top: .5em;
     border-bottom: 1px solid rgba(169, 169, 169, 0.134);
 }
 
@@ -51,8 +51,7 @@ header {
     display: none;
     background-color: rgb(15, 14, 14);
     width: 100%;
-    margin: 1em;
-    padding: 1em;
+    
 }
 
 .menu ul {
@@ -118,22 +117,25 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
     max-width: 300px;
 }
 
 .imagens img {
-    width: 250px;
     height: 250px;
-    margin: 1em;
 }
 
 .img-black {
+    width: 300px;
     box-shadow: 0px 0px 5px rgb(41, 40, 40);
     border-radius: 8px;
     margin: 1em;
     background-color: rgb(15, 15, 15);
 }
+
+.img-black img {
+    padding: .5em;
+}
+
 .img-black h4 {
     color: white;
     text-align: center;
@@ -176,6 +178,12 @@ header {
     border-radius: 8px;
     margin: 1em;
     background-color: rgb(15, 15, 15);
+    max-width: 300px;
+    width: 300px;
+}
+
+.img-darklab img {
+    padding: .5em;
 }
 
 .img-darklab h4 {
@@ -212,10 +220,21 @@ header {
 }
 
 .demaisprodut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
     box-shadow: 0px 0px 5px rgb(41, 40, 40);
     border-radius: 8px;
     margin: 1em;
     background-color: rgb(15, 15, 15);
+    max-width: 300px;
+    width: 300px;    
+}
+
+.demaisprodut img {
+    padding: .5em;
 }
 
 .demaisprodut h4 {
