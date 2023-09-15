@@ -79,7 +79,7 @@ body {
     font-size: 1.3em;
 }
 
-/* PRODUTOS */
+/* PRODUTOS BLACK */
 
 .produtos {
     margin: 2em;
@@ -92,14 +92,18 @@ body {
 
 .black-produtos {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.black-produtos a {
+.black-produtos a { 
     padding: 1em;
     border-radius: 20px;
     text-decoration: none;
     color: white;
-    font-weight: 400;
+    font-weight: 600;
     background-color: red;
 }
 
@@ -122,12 +126,52 @@ body {
 }
 
 .img-black {
-    border: 1px solid red;
+    box-shadow: 0px 0px 5px rgb(41, 40, 40);
     border-radius: 8px;
     margin: 1em;
     background-color: rgb(15, 15, 15);
 }
 .img-black h4 {
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* PRODUTOS DARKLAB */
+
+.darklab-produtos {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.darklab-produtos a {
+    padding: 1em;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: red;
+}
+
+#darklabimg {
+    display: none;
+}
+
+.img-darklab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    box-shadow: 0px 0px 5px rgb(41, 40, 40);
+    border-radius: 8px;
+    margin: 1em;
+    background-color: rgb(15, 15, 15);
+}
+
+.img-darklab h4 {
     color: white;
     text-align: center;
     padding: 1em;
