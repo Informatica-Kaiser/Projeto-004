@@ -80,6 +80,10 @@ header {
     flex-direction: column;
 }
 
+.produtos a {
+    margin: .5em;
+}
+
 .produtos h3 {
     color: white;
     margin-bottom: 2em;
