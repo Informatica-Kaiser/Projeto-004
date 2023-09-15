@@ -78,3 +78,41 @@ body {
     font-weight: bold;
     font-size: 1.3em;
 }
+
+/* PRODUTOS */
+
+.produtos {
+    margin: 2em;
+}
+
+.black-produtos {
+    text-align: center;
+}
+
+.black-produtos a {
+    padding: 1em;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    background-color: red;
+}
+
+#blackimg {
+    display: none;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2em;
+}
+
+.imagens img {
+    border: 5px solid darkgray;
+    margin: .5em;
+    width: 250px;
+    height: 250px;
+}

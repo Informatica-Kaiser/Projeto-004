@@ -73,10 +73,11 @@ body {
 }
 
 .btn-contato a {
+    text-transform: uppercase;
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 /* CORPO */
